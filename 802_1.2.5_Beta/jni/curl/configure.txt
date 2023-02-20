@@ -1,0 +1,31 @@
+configure: Configured to build curl/libcurl:
+
+  curl version:     7.53.1
+  Host setup:       arm-openwrt-linux-muslgnueabi
+  Install prefix:   /home/pengzc/work/a33_nor/sysroot/usr/local
+  Compiler:         /home/pengzc/work/a33_nor/bin/arm-openwrt-linux-muslgnueabi-gcc
+  SSL support:      enabled (OpenSSL)
+  SSH support:      no      (--with-libssh2)
+  zlib support:     enabled
+  GSS-API support:  no      (--with-gssapi)
+  TLS-SRP support:  enabled
+  resolver:         POSIX threaded
+  IPv6 support:     no      (--enable-ipv6)
+  Unix sockets support: enabled
+  IDN support:      no      (--with-{libidn2,winidn})
+  Build libcurl:    Shared=no, Static=yes
+  Built-in manual:  no      (--enable-manual)
+  --libcurl option: enabled (--disable-libcurl-option)
+  Verbose errors:   no
+  SSPI support:     no      (--enable-sspi)
+  ca cert bundle:   no
+  ca cert path:     no
+  ca fallback:      no
+  LDAP support:     no      (--enable-ldap / --with-ldap-lib / --with-lber-lib)
+  LDAPS support:    no      (--enable-ldaps)
+  RTSP support:     no      (--enable-rtsp)
+  RTMP support:     no      (--with-librtmp)
+  metalink support: no      (--with-libmetalink)
+  PSL support:      no      (libpsl not found)
+  HTTP2 support:    disabled (--with-nghttp2)
+  Protocols:        FILE HTTP HTTPS
